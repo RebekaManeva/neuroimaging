@@ -16,793 +16,793 @@
     {
       "patient_id": "001-BreastMeta-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-BreastMeta-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-BreastMeta-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-BreastMeta-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-BreastMeta-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\001-BreastMeta-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\001-BreastMeta-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\001-BreastMeta-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\001-BreastMeta-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-BreastMeta-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\001-BreastMeta-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "001-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\001-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\001-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\001-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\001-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\001-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "001-LungMeta-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-LungMeta-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-LungMeta-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-LungMeta-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-LungMeta-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\001-LungMeta-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\001-LungMeta-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\001-LungMeta-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\001-LungMeta-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-LungMeta-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\001-LungMeta-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "001-MelaMeta-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-MelaMeta-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-MelaMeta-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-MelaMeta-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-MelaMeta-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\001-MelaMeta-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\001-MelaMeta-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\001-MelaMeta-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\001-MelaMeta-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-MelaMeta-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\001-MelaMeta-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "001-OvaryMeta-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-OvaryMeta-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-OvaryMeta-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-OvaryMeta-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-OvaryMeta-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\001-OvaryMeta-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\001-OvaryMeta-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\001-OvaryMeta-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\001-OvaryMeta-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-OvaryMeta-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\001-OvaryMeta-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "001-StomachMeta-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-StomachMeta-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-StomachMeta-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-StomachMeta-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-StomachMeta-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\001-StomachMeta-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\001-StomachMeta-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\001-StomachMeta-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\001-StomachMeta-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\001-StomachMeta-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\001-StomachMeta-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "002-BreastMeta-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-BreastMeta-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-BreastMeta-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-BreastMeta-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-BreastMeta-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\002-BreastMeta-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\002-BreastMeta-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\002-BreastMeta-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\002-BreastMeta-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-BreastMeta-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\002-BreastMeta-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "002-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\002-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\002-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\002-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\002-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\002-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "002-LungMeta-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-LungMeta-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-LungMeta-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-LungMeta-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-LungMeta-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\002-LungMeta-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\002-LungMeta-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\002-LungMeta-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\002-LungMeta-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-LungMeta-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\002-LungMeta-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "002-MelaMeta-SWJY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-MelaMeta-SWJY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-MelaMeta-SWJY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-MelaMeta-SWJY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-MelaMeta-SWJY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\002-MelaMeta-SWJY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\002-MelaMeta-SWJY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\002-MelaMeta-SWJY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\002-MelaMeta-SWJY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-MelaMeta-SWJY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\002-MelaMeta-SWJY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "002-OvaryMeta-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-OvaryMeta-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-OvaryMeta-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-OvaryMeta-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-OvaryMeta-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\002-OvaryMeta-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\002-OvaryMeta-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\002-OvaryMeta-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\002-OvaryMeta-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-OvaryMeta-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\002-OvaryMeta-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "002-StomachMeta-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-StomachMeta-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-StomachMeta-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-StomachMeta-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-StomachMeta-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\002-StomachMeta-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\002-StomachMeta-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\002-StomachMeta-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\002-StomachMeta-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\002-StomachMeta-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\002-StomachMeta-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "003-BreastMeta-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\003-BreastMeta-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\003-BreastMeta-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\003-BreastMeta-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\003-BreastMeta-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\003-BreastMeta-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\003-BreastMeta-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\003-BreastMeta-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\003-BreastMeta-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\003-BreastMeta-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\003-BreastMeta-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "003-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\003-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\003-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\003-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\003-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\003-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\003-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\003-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\003-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\003-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\003-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "003-OvaryMeta-SWJY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\003-OvaryMeta-SWJY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\003-OvaryMeta-SWJY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\003-OvaryMeta-SWJY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\003-OvaryMeta-SWJY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\003-OvaryMeta-SWJY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\003-OvaryMeta-SWJY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\003-OvaryMeta-SWJY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\003-OvaryMeta-SWJY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\003-OvaryMeta-SWJY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\003-OvaryMeta-SWJY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "004-BreastMeta-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\004-BreastMeta-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\004-BreastMeta-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\004-BreastMeta-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\004-BreastMeta-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\004-BreastMeta-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\004-BreastMeta-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\004-BreastMeta-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\004-BreastMeta-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\004-BreastMeta-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\004-BreastMeta-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "004-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\004-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\004-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\004-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\004-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\004-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\004-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\004-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\004-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\004-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\004-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "004-LungMeta-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\004-LungMeta-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\004-LungMeta-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\004-LungMeta-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\004-LungMeta-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\004-LungMeta-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\004-LungMeta-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\004-LungMeta-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\004-LungMeta-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\004-LungMeta-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\004-LungMeta-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "004-OvaryMeta-CZYY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\004-OvaryMeta-CZYY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\004-OvaryMeta-CZYY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\004-OvaryMeta-CZYY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\004-OvaryMeta-CZYY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\004-OvaryMeta-CZYY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\004-OvaryMeta-CZYY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\004-OvaryMeta-CZYY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\004-OvaryMeta-CZYY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\004-OvaryMeta-CZYY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\004-OvaryMeta-CZYY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "005-BreastMeta-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\005-BreastMeta-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\005-BreastMeta-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\005-BreastMeta-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\005-BreastMeta-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\005-BreastMeta-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\005-BreastMeta-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\005-BreastMeta-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\005-BreastMeta-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\005-BreastMeta-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\005-BreastMeta-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "005-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\005-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\005-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\005-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\005-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\005-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\005-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\005-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\005-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\005-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\005-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "005-LungMeta-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\005-LungMeta-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\005-LungMeta-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\005-LungMeta-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\005-LungMeta-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\005-LungMeta-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\005-LungMeta-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\005-LungMeta-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\005-LungMeta-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\005-LungMeta-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\005-LungMeta-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "006-BreastMeta-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\006-BreastMeta-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\006-BreastMeta-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\006-BreastMeta-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\006-BreastMeta-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\006-BreastMeta-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\006-BreastMeta-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\006-BreastMeta-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\006-BreastMeta-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\006-BreastMeta-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\006-BreastMeta-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "006-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\006-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\006-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\006-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\006-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\006-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\006-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\006-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\006-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\006-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\006-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "006-LungMeta-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\006-LungMeta-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\006-LungMeta-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\006-LungMeta-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\006-LungMeta-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\006-LungMeta-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\006-LungMeta-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\006-LungMeta-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\006-LungMeta-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\006-LungMeta-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\006-LungMeta-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "007-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\007-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\007-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\007-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\007-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\007-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\007-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\007-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\007-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\007-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\007-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "007-LungMeta-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\007-LungMeta-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\007-LungMeta-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\007-LungMeta-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\007-LungMeta-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\007-LungMeta-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\007-LungMeta-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\007-LungMeta-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\007-LungMeta-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\007-LungMeta-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\007-LungMeta-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "008-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\008-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\008-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\008-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\008-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\008-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\008-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\008-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\008-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\008-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\008-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "008-LungMeta-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\008-LungMeta-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\008-LungMeta-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\008-LungMeta-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\008-LungMeta-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\008-LungMeta-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\008-LungMeta-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\008-LungMeta-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\008-LungMeta-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\008-LungMeta-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\008-LungMeta-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "009-BreastMeta-ASLY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\009-BreastMeta-ASLY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\009-BreastMeta-ASLY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\009-BreastMeta-ASLY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\009-BreastMeta-ASLY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\009-BreastMeta-ASLY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\009-BreastMeta-ASLY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\009-BreastMeta-ASLY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\009-BreastMeta-ASLY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\009-BreastMeta-ASLY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\009-BreastMeta-ASLY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "009-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\009-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\009-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\009-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\009-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\009-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\009-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\009-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\009-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\009-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\009-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "009-LungMeta-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\009-LungMeta-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\009-LungMeta-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\009-LungMeta-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\009-LungMeta-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\009-LungMeta-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\009-LungMeta-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\009-LungMeta-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\009-LungMeta-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\009-LungMeta-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\009-LungMeta-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "010-BreastMeta-ASLY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\010-BreastMeta-ASLY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\010-BreastMeta-ASLY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\010-BreastMeta-ASLY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\010-BreastMeta-ASLY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\010-BreastMeta-ASLY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\010-BreastMeta-ASLY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\010-BreastMeta-ASLY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\010-BreastMeta-ASLY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\010-BreastMeta-ASLY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\010-BreastMeta-ASLY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "010-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\010-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\010-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\010-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\010-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\010-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\010-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\010-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\010-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\010-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\010-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "010-LungMeta-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\010-LungMeta-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\010-LungMeta-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\010-LungMeta-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\010-LungMeta-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\010-LungMeta-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\010-LungMeta-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\010-LungMeta-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\010-LungMeta-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\010-LungMeta-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\010-LungMeta-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "011-BreastMeta-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\011-BreastMeta-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\011-BreastMeta-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\011-BreastMeta-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\011-BreastMeta-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\011-BreastMeta-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\011-BreastMeta-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\011-BreastMeta-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\011-BreastMeta-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\011-BreastMeta-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\011-BreastMeta-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "011-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\011-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\011-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\011-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\011-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\011-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\011-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\011-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\011-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\011-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\011-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "011-LungMeta-ASLY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\011-LungMeta-ASLY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\011-LungMeta-ASLY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\011-LungMeta-ASLY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\011-LungMeta-ASLY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\011-LungMeta-ASLY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\011-LungMeta-ASLY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\011-LungMeta-ASLY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\011-LungMeta-ASLY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\011-LungMeta-ASLY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\011-LungMeta-ASLY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "012-BreastMeta-SWJY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\012-BreastMeta-SWJY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\012-BreastMeta-SWJY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\012-BreastMeta-SWJY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\012-BreastMeta-SWJY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\012-BreastMeta-SWJY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\012-BreastMeta-SWJY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\012-BreastMeta-SWJY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\012-BreastMeta-SWJY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\012-BreastMeta-SWJY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\012-BreastMeta-SWJY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "012-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\012-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\012-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\012-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\012-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\012-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\012-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\012-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\012-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\012-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\012-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "013-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\013-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\013-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\013-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\013-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\013-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\013-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\013-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\013-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\013-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\013-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "013-LungMeta-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\013-LungMeta-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\013-LungMeta-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\013-LungMeta-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\013-LungMeta-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\013-LungMeta-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\013-LungMeta-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\013-LungMeta-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\013-LungMeta-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\013-LungMeta-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\013-LungMeta-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "014-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\014-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\014-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\014-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\014-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\014-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\014-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\014-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\014-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\014-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\014-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "014-LungMeta-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\014-LungMeta-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\014-LungMeta-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\014-LungMeta-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\014-LungMeta-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\014-LungMeta-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\014-LungMeta-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\014-LungMeta-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\014-LungMeta-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\014-LungMeta-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\014-LungMeta-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "015-LungMeta-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\015-LungMeta-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\015-LungMeta-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\015-LungMeta-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\015-LungMeta-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\015-LungMeta-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\015-LungMeta-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\015-LungMeta-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\015-LungMeta-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\015-LungMeta-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\015-LungMeta-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "016-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\016-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\016-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\016-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\016-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\016-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\016-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\016-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\016-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\016-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\016-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "016-LungMeta-SWJY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\016-LungMeta-SWJY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\016-LungMeta-SWJY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\016-LungMeta-SWJY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\016-LungMeta-SWJY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\016-LungMeta-SWJY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\016-LungMeta-SWJY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\016-LungMeta-SWJY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\016-LungMeta-SWJY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\016-LungMeta-SWJY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\016-LungMeta-SWJY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "017-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\017-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\017-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\017-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\017-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\017-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\017-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\017-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\017-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\017-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\017-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "017-LungMeta-CZYY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\017-LungMeta-CZYY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\017-LungMeta-CZYY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\017-LungMeta-CZYY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\017-LungMeta-CZYY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\017-LungMeta-CZYY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\017-LungMeta-CZYY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\017-LungMeta-CZYY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\017-LungMeta-CZYY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\017-LungMeta-CZYY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\017-LungMeta-CZYY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "018-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\018-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\018-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\018-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\018-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\018-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\018-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\018-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\018-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\018-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\018-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "018-LungMeta-CZYY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\018-LungMeta-CZYY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\018-LungMeta-CZYY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\018-LungMeta-CZYY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\018-LungMeta-CZYY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\018-LungMeta-CZYY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\018-LungMeta-CZYY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\018-LungMeta-CZYY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\018-LungMeta-CZYY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\018-LungMeta-CZYY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\018-LungMeta-CZYY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "019-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\019-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\019-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\019-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\019-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\019-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\019-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\019-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\019-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\019-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\019-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "019-LungMeta-CZYY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\019-LungMeta-CZYY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\019-LungMeta-CZYY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\019-LungMeta-CZYY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\019-LungMeta-CZYY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\019-LungMeta-CZYY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\019-LungMeta-CZYY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\019-LungMeta-CZYY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\019-LungMeta-CZYY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\019-LungMeta-CZYY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\019-LungMeta-CZYY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "020-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\020-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\020-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\020-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\020-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\020-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\020-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\020-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\020-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\020-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\020-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "020-LungMeta-CZYY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\020-LungMeta-CZYY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\020-LungMeta-CZYY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\020-LungMeta-CZYY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\020-LungMeta-CZYY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\020-LungMeta-CZYY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\020-LungMeta-CZYY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\020-LungMeta-CZYY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\020-LungMeta-CZYY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\020-LungMeta-CZYY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\020-LungMeta-CZYY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "021-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\021-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\021-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\021-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\021-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\021-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\021-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\021-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\021-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\021-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\021-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "021-LungMeta-CZYY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\021-LungMeta-CZYY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\021-LungMeta-CZYY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\021-LungMeta-CZYY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\021-LungMeta-CZYY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\021-LungMeta-CZYY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\021-LungMeta-CZYY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\021-LungMeta-CZYY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\021-LungMeta-CZYY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\021-LungMeta-CZYY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\021-LungMeta-CZYY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "022-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\022-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\022-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\022-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\022-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\022-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\022-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\022-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\022-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\022-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\022-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "023-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\023-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\023-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\023-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\023-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\023-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\023-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\023-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\023-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\023-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\023-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "024-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\024-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\024-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\024-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\024-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\024-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\024-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\024-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\024-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\024-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\024-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "025-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\025-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\025-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\025-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\025-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\025-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\025-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\025-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\025-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\025-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\025-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "026-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\026-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\026-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\026-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\026-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\026-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\026-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\026-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\026-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\026-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\026-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "027-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\027-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\027-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\027-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\027-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\027-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\027-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\027-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\027-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\027-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\027-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "028-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\028-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\028-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\028-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\028-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\028-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\028-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\028-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\028-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\028-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\028-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "029-Glioma-AYEY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\029-Glioma-AYEY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\029-Glioma-AYEY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\029-Glioma-AYEY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\029-Glioma-AYEY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\029-Glioma-AYEY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\029-Glioma-AYEY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\029-Glioma-AYEY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\029-Glioma-AYEY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\029-Glioma-AYEY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\029-Glioma-AYEY\\label_merged_3class.nii.gz"
       }
     },
     {
       "patient_id": "030-Glioma-ASLY",
       "images": {
-        "t1": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\030-Glioma-ASLY\\t1.nii.gz",
-        "t1ce": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\030-Glioma-ASLY\\t1ce.nii.gz",
-        "t2": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\030-Glioma-ASLY\\t2.nii.gz",
-        "flair": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\030-Glioma-ASLY\\flair.nii.gz"
+        "t1": "X\\preprocessed_motum\\030-Glioma-ASLY\\t1.nii.gz",
+        "t1ce": "X\\preprocessed_motum\\030-Glioma-ASLY\\t1ce.nii.gz",
+        "t2": "X\\preprocessed_motum\\030-Glioma-ASLY\\t2.nii.gz",
+        "flair": "X\\preprocessed_motum\\030-Glioma-ASLY\\flair.nii.gz"
       },
       "labels": {
-        "merged_3class": "D:\\beks\\PythonProject\\datasets\\motum\\preprocessed_motum\\030-Glioma-ASLY\\label_merged_3class.nii.gz"
+        "merged_3class": "X\\preprocessed_motum\\030-Glioma-ASLY\\label_merged_3class.nii.gz"
       }
     }
   ]
