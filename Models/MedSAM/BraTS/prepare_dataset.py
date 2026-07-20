@@ -4,7 +4,6 @@ import argparse
 from pathlib import Path
 import numpy as np
 import nibabel as nib
-import cv2
 from PIL import Image
 
 MODALITIES = ["flair", "t1", "t1ce", "t2"]
@@ -54,34 +53,19 @@ def mask_to_bbox_norm(mask_slice):
     ]
 
 
-def mask_to_polygon_norm(mask_slice):
-    mask_u8 = (mask_slice > 0).astype(np.uint8) * 255
-    contours, _ = cv2.findContours(mask_u8, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-    if not contours:
-        return None
-
-    largest = max(contours, key=cv2.contourArea)
-    epsilon = 0.02 * cv2.arcLength(largest, True)
-    approx = cv2.approxPolyDP(largest, epsilon, True)
-
-    h, w = mask_slice.shape
-    points = [[round(float(p[0][0]) / w, 4), round(float(p[0][1]) / h, 4)] for p in approx]
-    return points if len(points) >= 3 else None
-
-
 def train_val_test_split(pids, seed, val_frac=0.15, test_frac=0.15):
     rng = np.random.default_rng(seed)
     pids = sorted(list(pids))
     rng.shuffle(pids)
-    
+
     n = len(pids)
     n_test = int(round(n * test_frac))
     n_val = int(round(n * val_frac))
-    
+
     test_pids = pids[:n_test]
-    val_pids = pids[n_test : n_test + n_val]
+    val_pids = pids[n_test: n_test + n_val]
     train_pids = pids[n_test + n_val:]
-    
+
     print(f"Total patients: {n}")
     print(f"Train: {len(train_pids)}")
     print(f"Val:   {len(val_pids)}")
@@ -90,7 +74,7 @@ def train_val_test_split(pids, seed, val_frac=0.15, test_frac=0.15):
 
 
 def process_patient(pid, images_dict, labels_dict, brats_root,
-                    out_dir, png_size, slice_axis, trim_frac):
+                     out_dir, png_size, slice_axis, trim_frac):
     records = []
     brats_root = str(brats_root)
 
@@ -126,8 +110,10 @@ def process_patient(pid, images_dict, labels_dict, brats_root,
             continue
         masks[label_name] = nib.load(path).get_fdata().astype(np.float32)
 
-    pid_dir = Path(out_dir) / "images" / pid
-    pid_dir.mkdir(parents=True, exist_ok=True)
+    pid_img_dir = Path(out_dir) / "images" / pid
+    pid_img_dir.mkdir(parents=True, exist_ok=True)
+    pid_mask_dir = Path(out_dir) / "masks" / pid
+    pid_mask_dir.mkdir(parents=True, exist_ok=True)
 
     for mod, vol in vols.items():
         vol_u8 = norm_to_uint8(vol)
@@ -139,7 +125,7 @@ def process_patient(pid, images_dict, labels_dict, brats_root,
                 img = img.resize((png_size, png_size), Image.Resampling.BILINEAR)
 
             fname = f"{pid}__{mod}__slice_{k:04d}.png"
-            img_path = str(pid_dir / fname)
+            img_path = str(pid_img_dir / fname)
             img.save(img_path)
 
             for label_name, mask_vol in masks.items():
@@ -148,14 +134,15 @@ def process_patient(pid, images_dict, labels_dict, brats_root,
                 if png_size:
                     mask_img = Image.fromarray((mask_sl > 0).astype(np.uint8) * 255)
                     mask_img = mask_img.resize((png_size, png_size), Image.NEAREST)
-                    mask_sl_resized = np.array(mask_img) > 0
+                    mask_arr = np.array(mask_img) > 0
                 else:
-                    mask_sl_resized = mask_sl > 0
+                    mask_arr = mask_sl > 0
 
-                bbox = mask_to_bbox_norm(mask_sl_resized)
+                bbox = mask_to_bbox_norm(mask_arr)
                 has_tumor = bbox is not None
-
-                polygon = mask_to_polygon_norm(mask_sl_resized) if has_tumor else None
+                mask_fname = f"{pid}__{mod}__{label_name}__slice_{k:04d}_mask.png"
+                mask_path = str(pid_mask_dir / mask_fname)
+                Image.fromarray(mask_arr.astype(np.uint8) * 255).save(mask_path)
 
                 records.append({
                     "pid": pid,
@@ -164,10 +151,9 @@ def process_patient(pid, images_dict, labels_dict, brats_root,
                     "slice_axis": slice_axis,
                     "slice_index": k,
                     "image_path": img_path,
+                    "mask_image_path": mask_path,
                     "has_tumor": has_tumor,
                     "bbox_xyxy_norm": bbox,
-                    "polygon_norm": polygon,
-                    "mask_path": os.path.join(brats_root, rel_path),
                 })
 
     return records
@@ -196,8 +182,8 @@ def main():
     )
 
     split_info = {
-        "train": sorted(train_pids), 
-        "val": sorted(val_pids), 
+        "train": sorted(train_pids),
+        "val": sorted(val_pids),
         "test": sorted(test_pids)
     }
     (out_dir / "split.json").write_text(json.dumps(split_info, indent=2))
@@ -243,9 +229,7 @@ def main():
             f"{n_tumor} with tumor "
             f"({100 * n_tumor // max(1, len(records))}%)"
         )
-
     print(f"\nDone. Dataset written to: {out_dir}")
-
 
 if __name__ == "__main__":
     main()

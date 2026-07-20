@@ -1,7 +1,6 @@
 import argparse, json
 from pathlib import Path
 
-
 def parse_args():
     p = argparse.ArgumentParser()
     p.add_argument("--brats-root", required=True,

@@ -35,44 +35,40 @@ from transformers import (
     EarlyStoppingCallback,
     Trainer,
     TrainingArguments,
-    BitsAndBytesConfig,
-)
+    BitsAndBytesConfig,)
 
 LABEL_REGION_DESC = {
-    "whole_tumor": "whole tumor (WT)"
-}
-
+    "whole_tumor": "whole tumor (WT)"}
 
 def make_prompt(modality: str, label: str) -> str:
     seq_map = {"flair": "FLAIR", "t1": "T1", "t1ce": "T1C+", "t2": "T2"}
     seq = seq_map.get(modality, "MRI")
     region = LABEL_REGION_DESC.get(label, label)
     return f"""You are an expert neuroradiologist analyzing a brain MRI slice ({seq} sequence).
-Locate the {region} in this image and return the tumor boundary as a polygon.
+Locate the {region} in this image and return a tight bounding box around it.
 
 Return ONLY a valid JSON object inside <JSON> and </JSON> tags.
 
 <JSON>
 {{
   "has_tumor": true,
-  "polygon_norm": [[x1,y1], [x2,y2], ...],
+  "bbox_xyxy_norm": [x1, y1, x2, y2],
   "confidence": 0.0-1.0
 }}
 </JSON>
 
 Rules:
-- polygon_norm: list of [x,y] points, floats in [0,1], describing the tumor boundary in order
-- confidence: your certainty that the polygon covers the lesion (0.0-1.0)
-- If no lesion is visible in this slice, return polygon_norm=[] and has_tumor=false
+- bbox_xyxy_norm: floats in [0,1], format [x1, y1, x2, y2] top-left to bottom-right
+- confidence: your certainty that the box covers the lesion (0.0-1.0)
+- If no lesion is visible in this slice, return bbox_xyxy_norm=[] and has_tumor=false
 """
-
 
 def make_target(item: dict) -> str:
     has_tumor = item["has_tumor"]
-    polygon = item.get("polygon_norm") if has_tumor else []
+    bbox = item.get("bbox_xyxy_norm") if has_tumor else []
     obj = {
         "has_tumor": has_tumor,
-        "polygon_norm": polygon if polygon else [],
+        "bbox_xyxy_norm": [round(x, 4) for x in bbox] if bbox else [],
         "confidence": round(random.uniform(0.75, 0.95), 2) if has_tumor else 0.0,
     }
     return f"<JSON>\n{json.dumps(obj, indent=2)}\n</JSON>"
@@ -153,8 +149,7 @@ def train(args):
                 (x["has_tumor"] == False and random.random() < 0.30)
                 or (
                     x["has_tumor"] == True and
-                    x.get("polygon_norm") is not None and
-                    len(x.get("polygon_norm", [])) >= 3 and
+                    x.get("bbox_xyxy_norm") is not None and
                     (x["bbox_xyxy_norm"][2] - x["bbox_xyxy_norm"][0]) *
                     (x["bbox_xyxy_norm"][3] - x["bbox_xyxy_norm"][1]) >= 0.005
                 )
@@ -167,8 +162,7 @@ def train(args):
                 (x["has_tumor"] == False and random.random() < 0.30)
                 or (
                     x["has_tumor"] == True and
-                    x.get("polygon_norm") is not None and
-                    len(x.get("polygon_norm", [])) >= 3 and
+                    x.get("bbox_xyxy_norm") is not None and
                     (x["bbox_xyxy_norm"][2] - x["bbox_xyxy_norm"][0]) *
                     (x["bbox_xyxy_norm"][3] - x["bbox_xyxy_norm"][1]) >= 0.005
                 )
@@ -206,7 +200,7 @@ def train(args):
 
             file_name = os.path.basename(item["image_path"].replace("\\", "/"))
             patient_id = file_name.split("__")[0]
-            cluster_images_dir = "/home/hpc/users/ml_models/elena.nikolovska/Medgemma_Lora_polygon/prepared_dataset/images"
+            cluster_images_dir = "/home/hpc/users/ml_models/elena.nikolovska/Medgemma_Lora/prepared_dataset/images"
             cluster_img_path = os.path.join(cluster_images_dir, patient_id, file_name)
 
             img = Image.open(cluster_img_path).convert("RGB")
@@ -297,7 +291,7 @@ if __name__ == "__main__":
     parser.add_argument("--model_id",    type=str,   default="google/medgemma-1.5-4b-it")
     parser.add_argument("--train_path",  type=str,   required=True)
     parser.add_argument("--val_path",    type=str,   required=True)
-    parser.add_argument("--output_dir",  type=str,   default="./output_medgemma")
+    parser.add_argument("--output_dir",  type=str,   default="./output_medgemma_bbox")
     parser.add_argument("--label_col",   type=str,   default="whole_tumor",
                         choices=["whole_tumor"])
     parser.add_argument("--batch_size",  type=int,   default=1)

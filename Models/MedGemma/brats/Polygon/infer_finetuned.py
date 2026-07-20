@@ -355,11 +355,11 @@ def main():
         processed_count += len(batch_indices)
         print(f"  [{processed_count}/{len(all_records)}] Mean IoU={np.mean(all_ious):.4f} | Mean Dice={np.mean(all_dices):.4f}")
 
-    print(f"\n   Final Statistical Results ({args.label})   ")
+    print(f"\n=== Final Statistical Results ({args.label}) ===")
     print(f"Total slices evaluated: {len(all_ious)}")
     print(f"Mean IoU (Only on Tumor Slices): {np.mean(ious_with_tumor):.4f}")
     print(f"Mean Dice Score (Only on Tumor Slices): {np.mean(dices_with_tumor):.4f}")
-    print(f"   Healthy Slices Detection   ")
+    print(f"--- Healthy Slices Detection ---")
     print(f"True Negatives (Correctly identified as healthy): {true_negatives_count}")
     print(f"False Positives (Hallucinated tumors on healthy tissue): {false_positives_count}")
 
